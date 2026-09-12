@@ -4,7 +4,9 @@
 
 ![Study summary](figures/research-summary.svg)
 
-*Original visual summary based on the published study; performance values are taken from the reported results.*
+![Earlier 2018 MRS work](figures/earlier-2018-summary.svg)
+
+*Original visual summaries based on the published studies; performance values are taken from the reported results.*
 
 This repository presents a research project investigating semi-automated detection of glioblastoma tumor voxels using magnetic resonance spectroscopy (MRS) and machine learning classifiers.
 
@@ -28,16 +30,9 @@ Can metabolic features obtained from magnetic resonance spectroscopy be used wit
 
 ## Study Design
 
-MRS data were obtained from 7 patients with glioblastoma multiforme.
+MRS data were obtained from 7 patients with glioblastoma multiforme. A total of 293 voxels were analyzed using multivoxel proton magnetic resonance spectroscopy.
 
-A total of 293 voxels were analyzed using multivoxel proton magnetic resonance spectroscopy.
-
-The MRS data were acquired using a 3 Tesla Siemens MAGNETOM Trio Tim MRI scanner with a Point-Resolved Spectroscopy (PRESS) sequence.
-
-Acquisition parameters included:
-
-- TE = 135 ms
-- TR = 1570 ms
+The MRS data were acquired using a 3 Tesla Siemens MAGNETOM Trio Tim MRI scanner with a Point-Resolved Spectroscopy (PRESS) sequence. Acquisition parameters included TE = 135 ms and TR = 1570 ms.
 
 ## MRS Processing
 
@@ -52,21 +47,16 @@ The metabolite features selected for classification included:
 
 ## Machine Learning
 
-Different machine learning and classification approaches were evaluated for glioblastoma tumor detection.
-
-The evaluated classifiers included:
+Different machine learning and classification approaches were evaluated for glioblastoma tumor detection:
 
 - Multilayer Perceptron (MLP)
 - Linear Support Vector Machine (SVM)
 - Gaussian Support Vector Machine (SVM)
 - Fuzzy classification
 
-The Gaussian SVM achieved the best classification performance, with:
+The Gaussian SVM achieved the highest reported accuracy, with 89.7% for training and 87% for testing.
 
-- Training accuracy = 89.7%
-- Testing accuracy = 87%
-
-The fuzzy classifier using four membership functions achieved a testing accuracy of 82.5%.
+The fuzzy classifier using four membership functions achieved 82.5% testing accuracy. The paper also reports that increasing fuzzy membership functions improved training accuracy but that test accuracy decreased after four membership functions.
 
 ## Research Workflow
 
@@ -79,9 +69,9 @@ Voxel Selection
         ↓
 TARQUIN Processing
         ↓
-Metabolite Quantification
+Water Suppression
         ↓
-Feature Selection
+Metabolite Quantification
         ↓
 Cho + NAA
         ↓
@@ -92,6 +82,12 @@ MLP / Linear SVM / Gaussian SVM / Fuzzy
 Glioblastoma Tumor Detection
 ```
 
+## Earlier Work — 2018
+
+An earlier study investigated glioblastoma detection using magnetic resonance spectroscopy and Support Vector Machine classification. It represents an initial stage of my research on MRS-based tumor detection and machine learning.
+
+**Detection of Glioblastoma Multiforme Tumor in Magnetic Resonance Spectroscopy Based on Support Vector Machine**
+
 ## Software and Tools
 
 - SIVIC
@@ -99,13 +95,7 @@ Glioblastoma Tumor Detection
 - MATLAB
 - Machine Learning Classifiers
 
-## Earlier Work
-
-An earlier 2018 study investigated glioblastoma detection using magnetic resonance spectroscopy and Support Vector Machine classification. This study represents an earlier stage of my research on MRS-based tumor detection and machine learning.
-
-**Detection of Glioblastoma Multiforme Tumor in Magnetic Resonance Spectroscopy Based on Support Vector Machine**
-
-## Publication
+## Publications
 
 Faramarzi, A., Loghmani, N., Moqadam, R., Allahverdy, A., & Siyah Mansoory, M. (2021).
 
@@ -113,8 +103,10 @@ Faramarzi, A., Loghmani, N., Moqadam, R., Allahverdy, A., & Siyah Mansoory, M. (
 
 *Frontiers in Biomedical Technologies, 8*(3), 183–190.
 
-- [Read the article](https://doi.org/10.18502/fbt.v8i3.7113)
-- [Earlier 2018 study](https://ijmp.mums.ac.ir/article_12927.html)
+- [Read the article](https://publish.kne-publishing.com/index.php/fbt/article/view/7113)
+- [DOI](https://doi.org/10.18502/fbt.v8i3.7113)
+
+**Earlier 2018 study:** [Detection of Glioblastoma Multiforme Tumor in Magnetic Resonance Spectroscopy Based on Support Vector Machine](https://ijmp.mums.ac.ir/article_12927.html)
 
 ## Author
 
