@@ -111,8 +111,14 @@ Faramarzi, A., Loghmani, N., Moqadam, R., Allahverdy, A., & Siyah Mansoory, M. (
 
 *Frontiers in Biomedical Technologies, 8(3), 183–190.*
 
+[Read the article](https://doi.org/10.18502/fbt.v8i3.7113)
+
 ## Author
 
 **Ayob Faramarzi**
 
 Biomedical Engineering | Neuroimaging | fMRI | MRS | Brain Connectivity | Machine Learning
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=1uivc_4AAAAJ)
+
+[LinkedIn](https://www.linkedin.com/in/ayob-faramarzi/)
