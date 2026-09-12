@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated publication."
+title: "Semi-Automated Glioblastoma Tumor Detection Based on Different Classifiers Using Magnetic Resonance Spectroscopy"
+authors:
+  - family-names: Faramarzi
+    given-names: Ayob
+  - family-names: Loghmani
+    given-names: Nazila
+  - family-names: Moqadam
+    given-names: Roqaie
+  - family-names: Allahverdy
+    given-names: Armin
+  - family-names: Siyah Mansoory
+    given-names: Meysam
+year: 2021
