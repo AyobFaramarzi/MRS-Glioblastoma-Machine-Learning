@@ -2,6 +2,10 @@
 
 ## Semi-Automated Glioblastoma Tumor Detection Based on Different Classifiers Using Magnetic Resonance Spectroscopy
 
+![Study summary](figures/research-summary.svg)
+
+*Original visual summary based on the published study; performance values are taken from the reported results.*
+
 This repository presents a research project investigating semi-automated detection of glioblastoma tumor voxels using magnetic resonance spectroscopy (MRS) and machine learning classifiers.
 
 The study focused on identifying metabolic features from MRS data and evaluating different classification methods for distinguishing glioblastoma tumor voxels from non-tumor voxels.
@@ -97,11 +101,9 @@ Glioblastoma Tumor Detection
 
 ## Earlier Work
 
-An earlier study investigated glioblastoma detection using magnetic resonance spectroscopy and Support Vector Machine classification.
+An earlier 2018 study investigated glioblastoma detection using magnetic resonance spectroscopy and Support Vector Machine classification. This study represents an earlier stage of my research on MRS-based tumor detection and machine learning.
 
 **Detection of Glioblastoma Multiforme Tumor in Magnetic Resonance Spectroscopy Based on Support Vector Machine**
-
-This work represents an earlier stage of my research on MRS-based glioblastoma detection and machine learning.
 
 ## Publication
 
@@ -109,9 +111,10 @@ Faramarzi, A., Loghmani, N., Moqadam, R., Allahverdy, A., & Siyah Mansoory, M. (
 
 **Semi-Automated Glioblastoma Tumor Detection Based on Different Classifiers Using Magnetic Resonance Spectroscopy.**
 
-*Frontiers in Biomedical Technologies, 8(3), 183–190.*
+*Frontiers in Biomedical Technologies, 8*(3), 183–190.
 
-[Read the article](https://doi.org/10.18502/fbt.v8i3.7113)
+- [Read the article](https://doi.org/10.18502/fbt.v8i3.7113)
+- [Earlier 2018 study](https://ijmp.mums.ac.ir/article_12927.html)
 
 ## Author
 
